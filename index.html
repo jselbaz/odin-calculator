@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div class="container">
+  <div class="calc-body">
+    <div class="calc-screen" id="display">
+      <div id="previous-screen"></div>
+      <div id="current-screen"></div>
+    </div>
+    <div class="top-row">
+    <button type="button" id="clear">AC</button>
+    <button type="button" id="delete">Del</button>
+    <button type="button" id="percent">%</button>
+    <button type="button" data-operator id="divide">/</button>
+    </div>
+    <div class="second-row">
+    <button type="button" data-number id="seven">7</button>
+    <button type="button" data-number id="eight">8</button>
+    <button type="button" data-number id="nine">9</button>
+    <button type="button" data-operator id="multiply">*</button>
+    </div>
+    <div class="third-row">
+    <button type="button" data-number id="four">4</button>
+    <button type="button" data-number id="five">5</button>
+    <button type="button" data-number id="six">6</button>
+    <button type="button" data-operator id="subtract">-</button>
+    </div>
+    <div class="fourth-row">
+    <button type="button" data-number id="one">1</button>
+    <button type="button" data-number id="two">2</button>
+    <button type="button" data-number id="three">3</button>
+    <button type="button" data-operator id="add">+</button>
+    </div>
+    <div class="bottom-row">
+    <button type="button" data-number id="zero">0</button>
+    <button type="button" id="decimal">.</button>
+    <button type="button" id="equals">=</button>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
