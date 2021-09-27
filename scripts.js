@@ -13,7 +13,6 @@ const previousScreen = document.getElementById('previous-screen')
 const currentScreen = document.getElementById('current-screen')
 const percentButton = document.getElementById("percent")
 
-window.addEventListener('keydown', handleKeyboardInput)
 equalsButton.addEventListener('click', evaluate)
 clearButton.addEventListener('click', clear)
 deleteButton.addEventListener('click', deleteNum)
